@@ -1,0 +1,25 @@
+{
+	"name": "pvtt-stack",
+	"author": "Chris Shank",
+	"version": "1.0.0",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"dev": "parcel serve src/index.html --no-cache",
+		"build": "parcel build src/index.html --no-cache"
+	},
+	"dependencies": {
+		"vue": "^2.6.10",
+		"vue-hot-reload-api": "^2.3.4"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^1.3.0",
+		"@vue/component-compiler-utils": "^3.0.2",
+		"autoprefixer": "^9.7.0",
+		"cssnano": "^4.1.10",
+		"parcel-bundler": "^1.12.4",
+		"tailwindcss": "^1.1.3",
+		"typescript": "^3.7.2",
+		"vue-template-compiler": "^2.6.10"
+	}
+}
